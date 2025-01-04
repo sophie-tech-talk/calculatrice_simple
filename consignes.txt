@@ -1,0 +1,16 @@
+Voici un projet pour débutant :
+
+Projet : Une Calculatrice Basique 🧮
+
+Objectif
+Créer une page web qui permet à l'utilisateur d'entrer deux nombres, de choisir une opération (addition, soustraction, multiplication, division) et d'afficher le résultat.
+
+Fonctionnalités attendues :
+- Une interface avec deux champs pour entrer les nombres.
+- Des boutons pour chaque opération (+, -, *, /).
+- Un bouton pour afficher le résultat.
+- Un espace pour afficher le résultat du calcul.
+Contraintes :
+Utilise HTML, CSS, et JavaScript.
+Affiche une erreur si l'utilisateur tente de diviser par zéro.
+Prends ton temps pour coder ! Quand tu as terminé ou si tu as des questions, montre-moi ce que tu as fait, et je te donnerai le corrigé. 🚀

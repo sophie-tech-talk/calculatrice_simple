@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+    margin: 0; /* Enlever la marge par défaut */
+}
+
+button {
+    border:none;
+    cursor: pointer;
+}
+
+
+.calculator {
+    background-color: whitesmoke;
+    border-radius: 30px;
+    width: 50%;
+    padding: 15px;
+}
+
+.result {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    background-color:rgb(236, 203, 245);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.result-button {
+    background-color:rgb(186, 95, 183) !important;
+    border-radius: 30px;
+    color:white;
+}
+
+.keyboard-button {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.key {
+    border-radius: 100px;
+    background-color: bisque;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.clear {
+    background-color: rgb(215, 174, 223);
+}
+
+.key:hover {
+    background-color: #640a4b;
+    color: white;
+    transition: 0.3s;
+}
